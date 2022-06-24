@@ -79,17 +79,23 @@ Example output of the breast cancer data:
   - Spatial patterns of the underlying factors
     - Saved activities
     
-    <img src = "https://user-images.githubusercontent.com/57746198/175645329-f76bff56-da88-4a3e-9880-a08ae01abec0.png">
-
+    &nbsp;
+    <img src = "https://user-images.githubusercontent.com/57746198/175647647-39fe31e2-25ae-4240-803b-a66be8f07046.png">
+    &nbsp;
+    
     
     - Visualization
     
+    &nbsp;
     <img src = "https://user-images.githubusercontent.com/57746198/175618820-8a530f42-cb84-4e2d-bde3-0063508ac721.png" width = 150>
     <img src = "https://user-images.githubusercontent.com/57746198/175618859-7b65f740-7bbb-4008-8d7f-6c2f797a07c2.png" width = 150>
     <img src = "https://user-images.githubusercontent.com/57746198/175618885-91c96c89-426f-496d-8459-bfe6b09fe44c.png" width = 150>
     <img src = "https://user-images.githubusercontent.com/57746198/175618910-5f5ad6fc-0cb3-4477-957a-1296b7f5a425.png" width = 150>
-
+    &nbsp;
+    
 
   - Associated genes of the underlying factors
 
-    <img src = "https://user-images.githubusercontent.com/57746198/175645003-f25bbc0c-ccef-4a51-a148-3012f9563bd5.png">
+    &nbsp;
+    <img src = "https://user-images.githubusercontent.com/57746198/175650126-83980e61-b15b-4c32-b7f9-886b852a792e.png">
+    &nbsp;
