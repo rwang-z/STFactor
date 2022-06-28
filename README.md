@@ -1,6 +1,6 @@
 # STFactor
 
-
+&nbsp;
 
 ## Introduction
 
@@ -8,6 +8,7 @@ STFactor is a method to identify underlying factors of spatially resolved transc
 
 For more details, please read our paper: **Deciphering the spatial patterns and associated genes of factors underlying spatially resolved transcriptomics**.
 
+&nbsp;
 
 ## Prerequisite
 **R 4.0.3**
@@ -16,6 +17,7 @@ For more details, please read our paper: **Deciphering the spatial patterns and 
 
 **Platform**: Linux
 
+&nbsp;
 
 ## Data
 
@@ -25,7 +27,6 @@ A file of the count matrix:
   - rownames: string of coordinates of the spots, x and y position are connected with a separator (e.g., '10x10', '12_16')
   - colnames: genes
 
-
 &nbsp;
 
 Demonstration data is provided in 'data/':
@@ -34,6 +35,8 @@ Demonstration data is provided in 'data/':
   - 'Rep11_MOB_count_matrix-1.tsv': count matrix of mouse olfactory bulb
 
 The count matrices are downloaded from https://www.spatialresearch.org/resources-published-datasets/
+
+&nbsp;
 
 
 ## Usage
@@ -52,6 +55,7 @@ Parameters:
   - loc_sep: the separator between x and y position of the spot names, default 'x'
   - gene_filtering: used to remove genes expressed in less than gene_filtering locations, default 0.1
 
+&nbsp;
 
 ### Examples
 
@@ -62,6 +66,8 @@ Parameters:
 ```
 > STFactor('data/Rep11_MOB_count_matrix-1.tsv', 10, 'mob11')
 ```
+
+&nbsp;
 
 ## Output
 
@@ -74,6 +80,7 @@ Parameters:
       Activities of the associated genes in each underlying factor, saved in 'results/output_flag_factor_associated_genes.txt'.
 
 &nbsp;
+
 ### Examples
 
 Example output of the breast cancer data:
