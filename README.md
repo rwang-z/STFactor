@@ -6,7 +6,7 @@
 
 STFactor is a method to identify underlying factors of spatially resolved transcriptomics
 
-For more details, please read our paper: **Deciphering the spatial patterns and associated genes of factors underlying spatially resolved transcriptomics**
+For more details, please read our paper: **Deciphering the spatial patterns and associated genes of factors underlying spatially resolved transcriptomics**.
 
 
 ## Prerequisite
@@ -25,7 +25,7 @@ A file of the count matrix:
   - rownames: string of coordinates of the spots, x and y position are connected with a separator (e.g., '10x10', '12_16')
   - colnames: genes
 
-
+&nbsp;
 Demonstration data is provided in 'data/':
 
   - 'Layer2_BC_count_matrix-1.tsv': count matrix of human breast cancer
@@ -71,7 +71,7 @@ Parameters:
 
       Activities of the associated genes in each underlying factor, saved in 'results/output_flag_factor_associated_genes.txt'.
 
-
+&nbsp;
 ### Examples
 
 Example output of the breast cancer data:
@@ -87,10 +87,17 @@ Example output of the breast cancer data:
     - Visualization
     
     &nbsp;
-    <img src = "https://user-images.githubusercontent.com/57746198/175618820-8a530f42-cb84-4e2d-bde3-0063508ac721.png" width = 150>
-    <img src = "https://user-images.githubusercontent.com/57746198/175618859-7b65f740-7bbb-4008-8d7f-6c2f797a07c2.png" width = 150>
-    <img src = "https://user-images.githubusercontent.com/57746198/175618885-91c96c89-426f-496d-8459-bfe6b09fe44c.png" width = 150>
-    <img src = "https://user-images.githubusercontent.com/57746198/175618910-5f5ad6fc-0cb3-4477-957a-1296b7f5a425.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137397-68d1be15-0eb0-465d-a6e6-99347986743c.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137563-b7d2c263-9639-46c0-bec3-92ed9915213d.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137635-8e245d8c-685d-4aa2-b9bf-a4656e06ae65.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137769-daebfe80-6d7d-46f2-8836-877f912f7117.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137836-c0ed4af2-5ab4-42c4-9648-118f72d12847.png" width = 150>
+    
+    <img src = "https://user-images.githubusercontent.com/57746198/176137885-1c6a8f13-bca1-4a51-9539-f12d54818544.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176137952-a4d22bfe-edbe-48f9-b959-29f57d2306b0.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176138014-91a5f259-2e07-4bdc-8c3a-a7da82b0133d.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176138079-f6c31f6c-ccaa-4d1f-80f3-62fed7885284.png" width = 150>
+    <img src = "https://user-images.githubusercontent.com/57746198/176138145-d36b63d0-74a9-4ddb-b5dd-653f13cff00b.png" width = 150>
     &nbsp;
     
 
