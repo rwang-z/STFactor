@@ -80,7 +80,7 @@ Example output of the breast cancer data:
     - Saved activities
     
     &nbsp;
-    <img src = "https://user-images.githubusercontent.com/57746198/175647647-39fe31e2-25ae-4240-803b-a66be8f07046.png">
+    <img src = "https://user-images.githubusercontent.com/57746198/176135276-a6ede201-e4bb-4322-9978-c7323a349e98.png" width = 900>
     &nbsp;
     
     
@@ -97,5 +97,5 @@ Example output of the breast cancer data:
   - Associated genes of the underlying factors
 
     &nbsp;
-    <img src = "https://user-images.githubusercontent.com/57746198/175650126-83980e61-b15b-4c32-b7f9-886b852a792e.png">
+    <img src = "https://user-images.githubusercontent.com/57746198/176133810-074c0469-968a-45d6-86ee-33a5efc02f3c.png" width = 250>
     &nbsp;
