@@ -45,7 +45,7 @@ Parameters:
   - file_name: path of the count matrix file
   - num_components: number of underlying factors (maximum limit)
   - output_flag: a string used in the names of the output files to indicate the input data
-  - file_sep: the separator used to read the count matrix file, default '\t
+  - file_sep: the separator used to read the count matrix file, default '\t'
   - top_hvg: number of highly variable genes to select, default 2000
   - loc_sep: the separator between x and y position of the spot names, default 'x'
   - gene_filtering: used to remove genes expressed in less than gene_filtering locations, default 0.1
