@@ -25,7 +25,9 @@ A file of the count matrix:
   - rownames: string of coordinates of the spots, x and y position are connected with a separator (e.g., '10x10', '12_16')
   - colnames: genes
 
+
 &nbsp;
+
 Demonstration data is provided in 'data/':
 
   - 'Layer2_BC_count_matrix-1.tsv': count matrix of human breast cancer
