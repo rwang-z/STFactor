@@ -12,7 +12,7 @@ data_preprocessing = function(file_name, top_hvg = 2000, file_sep = '\t', loc_se
     # generate locations
     location_str = rownames(count_mat)
     loc_data = convert_str_2_loc(location_str, loc_sep)
-    # loc_data: dataframe with columns c('loc', 'raw_name', 'x_pos', 'y_pos')
+    # loc_data: dataframe with columns 'loc', 'raw_name', 'x_pos', 'y_pos'
 
     # remove locations with no expression (zero count in total)
     loc_sum = rowSums(count_mat)

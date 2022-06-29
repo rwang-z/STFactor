@@ -10,12 +10,11 @@ cal_rmse = function(x, y){
 }
 
 res_processing = function(res, filter_size = 1){
-    # params = res$params
     A = res$A$mu
     X = res$X$mom1
     num_comp = nrow(X)
-    PIP = round(res$X$gamma)   # membership matrix
-    X_PIP = X * PIP   # loadings
+    PIP = round(res$X$gamma)
+    X_PIP = X * PIP
     
     # removing empty components
     member_count = apply(X_PIP, 1, function(x) length(which(x != 0)))
@@ -34,13 +33,13 @@ res_processing = function(res, filter_size = 1){
     }else{
         num_group = 1
     }
+
     return(list(group_loadings = group_member_loadings, loc_loadings = loc_loadings, num_group = num_group))
 }
 
 cal_mat_inv = function(mat){
     mat_inv = tryCatch(chol2inv(chol(mat)),
                         error = function(e){
-                            # print('Using solve function instead')
                             tryCatch(return(solve(mat)),
                                     error = function(e){
                                         # add random noise to cov_mat
@@ -102,7 +101,7 @@ convert_str_2_loc = function(location_str, loc_sep = 'x'){
 }
 
 cal_distance_mat = function(locations, dimension = '2D'){
-    # locations: dataframe including columns 'x_pos' and 'y_pos' to calcualte the distances
+    # locations: dataframe including columns 'x_pos' and 'y_pos'
     num_loc = dim(locations)[1]
     if(dimension == '2D'){
         mat = locations[, c('x_pos', 'y_pos')]

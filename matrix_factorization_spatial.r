@@ -1,14 +1,15 @@
-# matrix factorization with spatial information
-# Lamda, N by 1 (for each spot)
+# Bayesian factorization of spatially resolved transcriptomics
+#
+# The code is modified from SDA4D (https://github.com/marchinilab/SDA4D)
 
 source('utils.r')
 
-matrix_factorization <- function(params, profile, dist_mat, maxiter = 2000, track=10, debugging=TRUE){
+matrix_factorization <- function(params, profile, dist_mat, maxiter = 2000, track = 10, debugging = TRUE){
 
     initialise_vars <- function(params, dist_mat){
         list_of_vars <- list()
-        list_of_vars$Error=0
-        list_of_vars$Neg_FE=c()
+        list_of_vars$Error = 0
+        list_of_vars$Neg_FE = c()
 
         # A: N by C, first dimension, normal distribution
         list_of_vars$A <- list(mu = matrix(rnorm(params$N * params$C),params$N,params$C),  # mean
