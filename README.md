@@ -6,7 +6,7 @@
 
 STFactor is a method to identify underlying factors of spatially resolved transcriptomics
 
-For more details, please read our paper: **Deciphering the spatial patterns and associated genes of factors underlying spatially resolved transcriptomics**.
+For more details, please read our paper: **Bayesian factorization of spatially resolved transcriptomics reveals underlying factors of spatial gene expression**.
 
 &nbsp;
 
